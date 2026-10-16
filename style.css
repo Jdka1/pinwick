@@ -65,3 +65,7 @@ figure.shot{margin:24px 0 0}figure.shot img{display:block;width:100%;height:auto
 .doc .dn{font-weight:800}.doc h3.dt{font-weight:800;letter-spacing:-.03em}.doc h4{font-weight:700}
 .doc .num{color:var(--acc);font-weight:800}
 .doc,.doc .item p,.doc .sub{font-family:var(--body)}
+
+.grid li::before{border-radius:50%;transform:none;top:-19px}
+.lede{background:none;padding:0}
+@media(max-width:400px){.wrap{padding:0 18px}.logo{font-size:19px}header .btn.small{padding:9px 12px;font-size:13px}}
